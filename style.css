@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Frank Ruhl Libre', serif;
+    background: lightblue;
+}
+
+.quiz_container { 
+    width: 600px;
+    border-radius: 20px;
+    background: white;
+}
+
+h2 {
+    padding: 2rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+}
+
+button {
+    border: none;
+    display: block;
+    width: 100%;
+    background: coral;
+    outline: none;
+    font-family: inherit;
+    font-size: 1.3rem;
+    color: white;
+    padding: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background: lightcoral;
+}
+
